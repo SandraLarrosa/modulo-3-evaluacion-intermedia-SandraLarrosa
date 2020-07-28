@@ -18,8 +18,18 @@ const PokeList = (props) => {
   });
   return (
     <>
-      <h1 className="title">Mi Lista de Pokemon</h1>
-      <ul className="contentCards">{listPokemon}</ul>
+      <div className="contentTitle">
+        <img className="pokeball"
+          src='https://cdn.icon-icons.com/icons2/896/PNG/512/pokemon_go_play_game_cinema_film_movie_icon-icons.com_69163.png'
+          alt='Pokeball'
+        ></img>
+        <h1 className='title'>Mi Lista Pokemon</h1>
+        <img className="pokeball"
+          src='https://cdn.icon-icons.com/icons2/896/PNG/512/pokemon_go_play_game_cinema_film_movie_icon-icons.com_69163.png'
+          alt='Pokeball'
+        ></img>
+      </div>
+      <ul className='contentCards'>{listPokemon}</ul>
     </>
   );
 };
