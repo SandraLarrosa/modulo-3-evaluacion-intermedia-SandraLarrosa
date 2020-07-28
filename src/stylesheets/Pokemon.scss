@@ -1,5 +1,6 @@
 .cardPokemon{
-    border: 1px solid black;
+    border: 1px solid rgb(245, 212, 105);
+    background-color: rgb(252, 248, 241);
     width: 200px;
     height: 280px;
     border-radius: 10px;
@@ -37,8 +38,36 @@
             padding: 3px;
             margin: 5px;
             border-radius: 5px;
+            color: white;
         }
     }
 
     
+}
+
+
+/*  */
+
+.poison {
+   background-color: rgb(95, 2, 95);
+}
+
+.grass {
+    background-color: green;
+}
+
+.fire {
+    background-color: red
+}
+
+.water {
+    background-color: rgb(7, 154, 180);
+}
+
+.flying {
+    background-color: rgb(168, 168, 168);
+}
+
+.bug {
+    background-color: rgb(136, 134, 3);
 }

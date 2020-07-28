@@ -2,9 +2,8 @@ import React from 'react';
 import '../stylesheets/Pokemon.scss';
 
 const Pokemon = (props) => {
-  console.log(props);
   const type = props.types.map((type, index) => {
-    return <li className="cardPokemon__type__list" key={index}>{type}</li>;
+    return <li className={`${type} cardPokemon__type__list`} key={index}>{type}</li>;
   });
 
   return (
