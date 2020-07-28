@@ -18,8 +18,8 @@ const PokeList = (props) => {
   });
   return (
     <>
-      <h1 class="title">Mi Lista de Pokemon</h1>
-      <ul class="contentCards">{listPokemon}</ul>
+      <h1 className="title">Mi Lista de Pokemon</h1>
+      <ul className="contentCards">{listPokemon}</ul>
     </>
   );
 };
