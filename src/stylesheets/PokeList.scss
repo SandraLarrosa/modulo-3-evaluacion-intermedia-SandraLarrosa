@@ -1,0 +1,17 @@
+.title {
+    text-align: center;
+    font-weight: 900;
+    color: rgb(214, 214, 0);
+}
+
+.contentCards {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+
+}
