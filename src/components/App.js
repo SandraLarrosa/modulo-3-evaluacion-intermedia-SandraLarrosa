@@ -1,6 +1,5 @@
 import React, { useState }from 'react';
 import listPokemon from '../data/listPokemon.json'
-import '../stylesheets/App.scss';
 import PokeList from './PokeList';
 
 function App() {
