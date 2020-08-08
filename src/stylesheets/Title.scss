@@ -1,0 +1,31 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+.title {
+  font-family: 'Pokemon';
+  text-align: center;
+  font-weight: 900;
+  font-size: 40px;
+  color: rgb(214, 214, 0);
+}
+
+.contentTitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pokeball {
+  width: 120px;
+  margin: 20px;
+  align-self: flex-end;
+}
+
+.pikachu {
+  align-self: center;
+  width: 140px;
+}
